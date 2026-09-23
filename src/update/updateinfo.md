@@ -1,4 +1,4 @@
-<!-- iedegame-update: version=1.2609.2400 -->
+<!-- iedegame-update: version=1.2609.2406 -->
 
 <!-- iedegame-update: lang=ja -->
 
