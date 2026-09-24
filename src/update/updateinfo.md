@@ -1,10 +1,22 @@
-<!-- iedegame-update: version=1.2609.2419 -->
+<!-- iedegame-update: version=1.2609.2421 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2609.2419
+# iedeGAME サーバー 1.2609.2421
 
 ## 新しくなったところ
+
+### お気に入りを登録できるようになりました
+
+- ゲームのカードを**右クリック（スマートフォン/タブレットでは長押し）**すると、
+  「お気に入りに追加」「お気に入りから削除」のメニューが出ます。
+  ROM選択・検索結果・履歴・お気に入りの、どの画面のカードからでも操作できます。
+- お気に入りに入れたゲームは、カードのプレビュー画像の左上に★が付きます。
+- ブラウザーのトップ画面に「お気に入り」を追加しました。「履歴」の隣にあります。
+- お気に入りは**アカウントごと**に保存します。ご自分のアカウントでサインインするとお使いいただけます。
+  未サインインのときと、共有のゲストアカウントでは使用できません（トップ画面では灰色で表示されます）。
+- サーバーアプリのメニューにも「お気に入り」を追加しました。**全員分のお気に入り**を確認でき、
+  利用者での絞り込みと、表示中のお気に入りの削除ができます。
 
 ### 履歴が利用者ごとになりました
 
@@ -49,9 +61,21 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2609.2419
+# iedeGAME Server 1.2609.2421
 
 ## What's new
+
+### Games can be added to favorites
+
+- **Right-click** a game card (**long-press** on a phone or tablet) to open a menu with
+  **Add to favorites** / **Remove from favorites**. It works on the cards of the ROM list,
+  search results, history and favorites pages alike.
+- A star is shown at the top left of the preview image of every game in your favorites.
+- A **Favorites** card was added to the browser's top page, next to **History**.
+- Favorites are kept **per account**. Sign in with your own account to use them. They are not
+  available while signed out or with the shared guest account (the card is greyed out there).
+- A **Favorites** item was added to the server app menu as well. It lists **everyone's favorites**,
+  can be filtered by user, and the favorites shown can be deleted.
 
 ### History is now per user
 
