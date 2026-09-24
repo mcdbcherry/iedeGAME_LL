@@ -1,8 +1,8 @@
-<!-- iedegame-update: version=1.2609.2415 -->
+<!-- iedegame-update: version=1.2609.2418 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2609.2415
+# iedeGAME サーバー 1.2609.2418
 
 ## 新しくなったところ
 
@@ -49,7 +49,7 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2609.2415
+# iedeGAME Server 1.2609.2418
 
 ## What's new
 
