@@ -1,10 +1,19 @@
-<!-- iedegame-update: version=1.2609.2423 -->
+<!-- iedegame-update: version=1.2609.2501 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2609.2423
+# iedeGAME サーバー 1.2609.2501
 
 ## 新しくなったところ
+
+### ゲームの動画を探せるようになりました
+
+- ゲームのカードを**右クリック（長押し）**して「動画を検索」を選ぶと、そのゲームの
+  動画一覧が表示されます。ROM選択・検索結果・履歴・お気に入りのどの画面からでも使えます。
+- サムネイル付きのカードで一覧表示し、押すとYouTube側の再生ページが別のタブで開きます。
+- お使いいただくには、サーバーアプリのメニュー「動画検索」で有効にし、
+  **YouTubeのAPIキー**（Google Cloudで無料で作成できます）をサーバー側アプリに設定してください。
+  既定は無効で、無効の間は一切外部へ通信しません。
 
 ### ゲームの自動識別が当たりやすくなりました
 
@@ -90,9 +99,22 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2609.2423
+# iedeGAME Server 1.2609.2501
 
 ## What's new
+
+### Videos for a game can be found
+
+- **Right-click** a game card (**long-press** on a phone or tablet) and choose
+  **Search for videos** to see videos for that game. It works from the ROM list, search
+  results, history and favorites alike.
+- Searches use the game name and system name, with words such as "walkthrough",
+  "playthrough" and "gameplay" added automatically in the language of the client.
+- Results are listed as cards with thumbnails; selecting one opens the video on YouTube
+  in a new tab.
+- To use it, turn on **Video Search** in the server app menu and set a **YouTube API key**
+  (free to create in Google Cloud). It is off by default, and nothing is sent anywhere
+  while it is off.
 
 ### Games are identified more reliably
 
