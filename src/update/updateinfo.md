@@ -1,10 +1,23 @@
-<!-- iedegame-update: version=1.2609.2421 -->
+<!-- iedegame-update: version=1.2609.2422 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2609.2421
+# iedeGAME サーバー 1.2609.2422
 
 ## 新しくなったところ
+
+### ゲーム情報とカバー画像を手で設定できるようになりました
+
+- サーバーアプリの「プレビュー画像設定」→「未取得一覧」に**編集**ボタンを追加しました。
+  自動取得で見つからないゲームでも、カバー画像のアップロードとゲーム情報の入力ができます。
+- ブラウザーからも、ゲームのカードを**右クリック（長押し）**して「ゲーム情報を編集」を選べます。
+  すでに設定済みの内容もここから直せます。
+- ブラウザーからの編集は、サーバーアプリの「ユーザー設定」で
+  **「ゲーム情報・プレビュー画像の編集を許可する」**を有効にした場合のみ使えます（既定は無効）。
+  有効にした場合も、編集できるのはサインイン中の方だけです。
+- 手で設定した内容は、gamelist.xmlや自動取得した内容より**優先して**表示され、
+  ROMフォルダ内の「scrape/manual」フォルダに保存されます。自動取得をやり直しても消えません。
+- 項目を空にして保存すると、元の内容に戻ります。
 
 ### お気に入りを登録できるようになりました
 
@@ -61,9 +74,23 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2609.2421
+# iedeGAME Server 1.2609.2422
 
 ## What's new
+
+### Game info and cover images can be set by hand
+
+- An **Edit** button was added to the missing-items list under **Preview image settings** in the
+  server app. Even for games the automatic download cannot find, you can upload a cover image
+  and fill in the game info yourself.
+- From the browser you can also **right-click** (long-press) a game card and choose
+  **Edit game info**, including for games that already have information.
+- Editing from the browser is available only when **Allow game info and cover images to be edited**
+  is turned on under **User settings** in the server app (off by default). Even then, only people
+  who are signed in can edit.
+- What you set by hand **takes priority** over gamelist.xml and anything downloaded automatically,
+  and is stored in the "scrape/manual" folder inside the ROM folder, so it survives re-downloads.
+- Clearing a field and saving brings the original value back.
 
 ### Games can be added to favorites
 
