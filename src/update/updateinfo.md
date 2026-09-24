@@ -6,6 +6,22 @@
 
 ## 新しくなったところ
 
+### ゲームの自動識別が当たりやすくなりました
+
+- ファミコン等の**付加ヘッダーを除いたハッシュ**でも照合するようになりました。
+  これまで「該当なし」になっていたROMが当たるようになります。
+- **CHD**は、圧縮前のディスクのハッシュで照合します（展開は不要です）。
+- PS1/PS2/PSP・セガサターン/ドリームキャスト・ゲームキューブ/Wiiは、ディスクの
+  **製品番号**でも照合します。ハッシュの計算を諦める大きなイメージでも識別できます。
+
+### BIOSのハッシュ情報を増やせるようになりました
+
+- BIOS確認画面に**「ハッシュ情報を取り込む」**を追加しました。お手元のdatファイル
+  （No-Intro / Redump / libretro、または「mame -listxml」の出力）を取り込むと、
+  「検証情報なし」だったBIOSも内容を照合できるようになります。
+- 取り込んだ内容は設定フォルダに残るため、アプリを入れ替えても消えません。
+- 既知ハッシュの件数も画面に表示します。
+
 ### ゲーム情報とカバー画像を手動で設定できるようになりました
 
 - サーバーアプリの「プレビュー画像設定」→「未取得一覧」に**編集**ボタンを追加しました。
@@ -77,6 +93,23 @@
 # iedeGAME Server 1.2609.2423
 
 ## What's new
+
+### Games are identified more reliably
+
+- ROMs are now also matched by the hash of the body **with the copier/iNES header removed**,
+  so ROMs that previously came back as "not found" can now be matched.
+- **CHD** files are matched by the hash of the original disc recorded in their header,
+  with no need to extract them.
+- PS1/PS2/PSP, Saturn/Dreamcast and GameCube/Wii discs are also matched by their
+  **product number**, so even images too large to hash can be identified.
+
+### The BIOS hash list can be extended
+
+- **Import hash information** was added to the BIOS check screen. Import a DAT file you
+  already have (No-Intro / Redump / libretro, or the output of "mame -listxml") and BIOS
+  files that previously showed "no verification data" can be checked as well.
+- What you import is kept in the settings folder, so it survives updating the app.
+- The number of known hashes is shown on the screen.
 
 ### Game info and cover images can be set by hand
 
