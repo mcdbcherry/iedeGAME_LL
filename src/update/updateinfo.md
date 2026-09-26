@@ -6,25 +6,6 @@
 
 ## 新しくなったところ
 
-### ゲームのリンクを直接開けるようになりました
-
-- ゲームの起動アドレスをブックマークに入れたり、QRコードやメッセージで渡しておくと、
-  そこから直接ゲームを開けるようになりました。ROM選択画面を経由せず、すぐに始まります。
-- この開き方のときは、画面の上の「戻る」のバーは出ません。ゲームの画面だけが表示されます。
-- アドレス欄には短いアドレスが表示されます。そのまま再読み込みしても同じゲームが開きます。
-  サーバーアプリを再起動すると短いアドレスの方は使えなくなりますが、元のアドレスからは
-  これまで通り開けます。
-- 外部（DDNS）からのアクセスでは、これまで通りIDとパスワードの入力が必要です。
-
-### MAMEで遊ぶときの警告画面が出なくなりました
-
-- アーケードのコアに**MAME 2003 / MAME 2003 Plus**を選んだとき、起動のたびに出ていた
-  著作権の注意書きと、「このゲームには既知の問題があります」の画面を出さないようにしました。
-  すぐにゲームが始まります。
-- 表示だけの変更で、エミュレーションの動作そのものは変わりません。
-- 元に戻したいときは、プレイ画面のメニューの設定から「Backend Core Options」を開き、
-  「plus skip disclaimer」「plus skip warnings」で切り替えられます。
-
 ### ゲームの動画を探せるようになりました
 
 - ゲームのカードを**右クリック（長押し）**して「動画を検索」を選ぶと、そのゲームの
@@ -121,24 +102,6 @@
 # iedeGAME Server 1.2609.2701
 
 ## What's new
-
-### Game links can be opened directly
-
-- Bookmark a game's address, or share it as a QR code or a message, and opening it starts
-  the game right away without going through the ROM list.
-- Opened this way, the "Back" bar at the top is not shown; only the game screen is.
-- The address bar shows a short address instead, and reloading it opens the same game.
-  Restarting the server app retires that short address; the original one keeps working.
-- Access from outside (DDNS) still asks for the user name and password, as before.
-
-### No more warning screens with MAME
-
-- With **MAME 2003** or **MAME 2003 Plus** selected as the arcade core, the copyright notice
-  and the "known problems with this game" screen no longer appear on every launch.
-  The game starts right away.
-- This changes what is shown, not how the game is emulated.
-- To bring them back, open the settings from the menu on the play screen, go to
-  "Backend Core Options" and switch "plus skip disclaimer" / "plus skip warnings".
 
 ### Videos for a game can be found
 
