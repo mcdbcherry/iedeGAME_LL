@@ -1,92 +1,88 @@
-<!-- iedegame-update: version=1.2610.0814 -->
+<!-- iedegame-update: version=1.2610.1119 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2610.0814
+# iedeGAME サーバー 1.2610.1119
 
 ## 新しくなったところ
 
-### 機種ごとの人気ゲームランキングを見られるようになりました
+### セーブデータの同期
 
-- ブラウザーの**ゲーム一覧の先頭に「ランキングを見る」**が出ます。押すと、その機種で
-  人気・評価の高いゲームが順位付きで並びます。
-- 並ぶのは**このサーバーにあるゲームだけ**です。持っていないゲームは出ません。
-- それぞれに**短い紹介文**が付きます。「なぜ評価されているのか」が一覧のまま読めます。
-- カードはいつものゲームのカードと同じです。**右クリック（長押し）のメニュー**も、
-  詳細を見てからの起動も、これまでどおり使えます。
-- 2回目以降は、**前の月からどれだけ順位が動いたか**（▲3 / ▼1 / NEW）も表示します。
+- サインインしてゲームを起動すると、**サーバーにある最新のセーブデータ**からプレイを再開できます。
+  別の機器で遊んだ続きを、そのまま次の機器で遊べます。
+- 遊び終わってエミュレーターを閉じると、**「エミュレーターのセーブデータでサーバーを更新しますか？」**
+  と確認します。更新すると、次はどの機器からでもその続きから始められます。
+  更新しない場合は、サーバーのセーブデータはそのまま残ります。
+- Windows・macOS・Android・Linux Mobile（Anbernic製デバイスなど）のLocal Launcherで、
+  **RetroArch**を使って遊んだ場合に機能します。
+- セーブデータは**サインインしたアカウントごと**に分かれます。ゲストアカウントは複数人で
+  共有する前提のため、同期の対象外です。
 
-### ランキングを使うには
+### NDSでは、Standaloneエミュレーターも試験的に使えます
 
-- サーバーアプリのメニューに**「AI設定」**を追加しました。ここで**Gemini**または
-  **OpenAI**を選び、APIキーを設定すると使えるようになります。
-- **設定するまでは何も起きません。** ブラウザーにも「ランキングを見る」は出ず、
-  外部への通信も一切行いません。
-- 無料の範囲で使いたい場合は**Gemini**をお選びください。OpenAIには無料枠がありません。
-- APIキーを入れたら**「接続を確認」**で試せます。うまくいかない場合は理由が表示されます。
+- NDS（ニンテンドーDS）だけは、RetroArch以外の**Standaloneエミュレーター**でも同じ同期を
+  試せるようになりました。対応するのは次のものです。
 
-### ランキングの更新について
+  | 機器 | エミュレーター |
+  | --- | --- |
+  | Windows | DeSmuME / melonDS |
+  | macOS | DeSmuME |
+  | Android | DraStic |
 
-- **月に1回**、月が替わって最初にサーバーアプリを起動したときに自動で作り直します。
-  作成中はサーバーアプリのトップ画面に進行状況が出ます（そこから設定画面へ移れます）。
-- 作成する機種は**チェックボックスで選べます**。アーケード基板は対象外です。
-  1機種に何百もの作品と版違いが含まれ、家庭用ゲーム機ほど「人気ゲーム」の並びが
-  意味を持たないためです。
-- 機種ごとに**削除**して作り直せます。作成を**中止**することもできます。
-- 改造版やHack版のROMは選ばれません。同じゲームのROMを複数お持ちの場合は、
-  できるだけ**標準のROM**が選ばれます。
+- **この機能は既定でOFFです。** Local Launcherの**「Standaloneエミュレーターのセーブデータ管理」**を開き、
+  **「iedeGAMEによるNDSのStandaloneセーブデータの編集を許可する」**をONにしたときだけ動きます。
+  Windowsは通知領域（タスクトレイ）のメニュー、macOSは設定画面、Androidはホーム画面から開けます。
+- 許可は**機器ごと**に覚えます。ある機器でONにしても、ほかの機器はOFFのままです。
+- **警告：許可すると、エミュレーターにある既存のセーブデータが削除・上書きされる場合があります。**
+  必要なセーブデータは、許可する前にバックアップしてください。
 
 ### ご注意
 
-- 順位と紹介文は**AIがネット検索をもとに作ったもの**です。誤りが含まれることがあります。
-  ランキングのページで、AIが参照した情報源をご確認いただけます。
-- ランキングは、サーバーアプリの**「言語設定」**で選んだ言語で作られます。検索する
-  情報源もその言語のものを優先します。ブラウザー側の表示言語とは別の設定なので、
-  一致しないことがあります。
+- NDS以外のStandaloneエミュレーターは、セーブデータ同期の対象ではありません。
+  ゲームの起動と、エミュレーター自身が保存するセーブデータは、これまでどおり使えます。
+- NDSのStandaloneエミュレーターへの対応は**試験的なもの**です。すべてのエミュレーターの版や
+  すべてのゲームで確認したものではありません。大切なセーブデータはバックアップをお願いします。
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2610.0814
+# iedeGAME Server 1.2610.1119
 
 ## What's new
 
-### Popular game rankings for each system
+### Save data synchronization
 
-- A **"View ranking"** link now appears at the top of each system's game list in the browser.
-  It shows the most popular and highly rated games for that system, in order.
-- Only games **held on this server** are listed. Games you do not have are left out.
-- Each entry comes with a **short note** on why the game is well regarded, readable straight
-  from the list.
-- The cards are the same game cards as everywhere else. The **right-click (long-press) menu**
-  and starting a game from its details work just as they do elsewhere.
-- From the second month on, each entry also shows **how far it moved** since last month
-  (▲3 / ▼1 / NEW).
+- Sign in and start a game, and play resumes from the **latest save data held on the server**.
+  Where you left off on one device is where you start on the next.
+- When you close the emulator, you are asked **"Update the server with the emulator save data?"**
+  Update it, and you can carry on from that point on any of your devices. Decline, and the save
+  data on the server is left as it was.
+- This works in the Local Launcher on Windows, macOS, Android, and Linux Mobile (Anbernic
+  devices and the like), for games played through **RetroArch**.
+- Save data is kept **per signed-in account**. Guest accounts are meant to be shared between
+  people, so they are left out of synchronization.
 
-### Turning rankings on
+### For NDS, standalone emulators can be used too (experimental)
 
-- A new **AI Settings** item was added to the server app menu. Choose **Gemini** or **OpenAI**
-  there and enter an API key to enable the feature.
-- **Nothing happens until you do.** The "View ranking" link stays hidden in the browser, and
-  nothing is sent anywhere.
-- Choose **Gemini** if you want to stay within a free quota. OpenAI has no free tier.
-- After entering a key you can try it with **Check connection**. If it does not work, the reason
-  is shown.
+- For NDS (Nintendo DS) only, the same synchronization can now be tried with **standalone
+  emulators** rather than RetroArch. The following are supported:
 
-### How rankings are updated
+  | Device | Emulator |
+  | --- | --- |
+  | Windows | DeSmuME / melonDS |
+  | macOS | DeSmuME |
+  | Android | DraStic |
 
-- Rankings are rebuilt **once a month**, the first time the server app starts after the month
-  changes. Progress is shown on the server app's main screen, with a shortcut to the settings.
-- You can **pick which systems** get a ranking with checkboxes. Arcade boards are left out: one
-  board holds hundreds of titles and many revisions of the same game, so a list of popular games
-  means less there than it does for a home console.
-- You can **delete** a system's ranking to have it rebuilt, and **stop** a build in progress.
-- Hacked and modified ROMs are never chosen. When you hold several ROMs of the same game, the
-  **standard one** is preferred.
+- **This is OFF by default.** It works only once you open **Standalone emulator save management**
+  in the Local Launcher and turn on **Allow iedeGAME to edit NDS standalone save data**.
+  You will find it in the notification area (tray) menu on Windows, in the settings window on
+  macOS, and on the home screen on Android.
+- The permission is remembered **per device**. Turning it on for one device leaves the others off.
+- **WARNING: Allowing editing may delete or overwrite existing saves in the emulator.**
+  Back up any save data you need before enabling this option.
 
 ### Please note
 
-- The order and the notes are **produced by an AI from a web search**, so they can be wrong.
-  The ranking page lists the sources the AI looked at.
-- Rankings are written in the language chosen in the server app's **Language Settings**, and
-  sources in that language are preferred. That is a separate setting from the display language
-  in the browser, so the two may not match.
+- Standalone emulators other than NDS ones are not covered by save data synchronization.
+  Starting games, and the save data the emulator keeps by itself, work just as before.
+- Support for NDS standalone emulators is **experimental**. It has not been checked against every
+  emulator build or every game. Please keep backups of save data that matters to you.
