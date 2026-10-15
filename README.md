@@ -1,4 +1,4 @@
-# iedeGameLL
+# iedeGame Local Launcher (iedeGameLL)
 
 > [!IMPORTANT]
 > **iedeGAME LL (Local Launcher) requires iedeGAME Server running on Windows 11.**
