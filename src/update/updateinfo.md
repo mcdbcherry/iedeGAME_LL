@@ -1,12 +1,16 @@
-<!-- iedegame-update: version=1.2610.1821 -->
+<!-- iedegame-update: version=1.2610.1907 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2610.1821
+# iedeGAME サーバー 1.2610.1907
 
 ## 新しくなったところ
 
-### バージョン 1.2610.1821：PC版UIで一部コントローラーに対応
+### サーバーの配布形態をインストーラー形式に変更
+
+- iedeGAME サーバーの配布形態をインストーラー形式に変更しました。ダウンロードしたインストーラーを実行し、画面の案内に従ってインストールできます。
+
+### バージョン 1.2610.1907：PC版UIで一部コントローラーに対応
 
 - PC版（Windows／macOS／デスクトップLinux）のブラウザー画面を、PCに接続した一部のコントローラーで操作できるようになりました。Linux Mobile版は従来の操作方法を使用します。
 - 十字キー／左スティックで項目を移動し、決定・戻る・メニュー操作ができます。対応する操作方法は **Settings** で確認できます。
@@ -36,11 +40,15 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2610.1821
+# iedeGAME Server 1.2610.1907
 
 ## What's new
 
-### Version 1.2610.1821: PC interface support for selected controllers
+### Server distribution now uses an installer
+
+- iedeGAME Server is now distributed as an installer. Run the downloaded installer and follow the on-screen instructions to install the server.
+
+### Version 1.2610.1907: PC interface support for selected controllers
 
 - You can now navigate the browser interface on a PC (Windows, macOS, or desktop Linux) with selected controllers connected to that PC. Linux Mobile continues to use its existing controls.
 - Use the D-pad or left stick to move between items, and controller buttons to select, go back, or open menus. See **Settings** for the controls.
