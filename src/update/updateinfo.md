@@ -1,10 +1,17 @@
-<!-- iedegame-update: version=1.2610.1816 -->
+<!-- iedegame-update: version=1.2610.1818 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2610.1816
+# iedeGAME サーバー 1.2610.1818
 
 ## 新しくなったところ
+
+### バージョン 1.2610.1818：PC版UIで一部コントローラーに対応
+
+- PC版（Windows／macOS／デスクトップLinux）のブラウザー画面を、PCに接続した一部のコントローラーで操作できるようになりました。Linux Mobile版は従来の操作方法を使用します。
+- 十字キー／左スティックで項目を移動し、決定・戻る・メニュー操作ができます。対応する操作方法は **Settings** で確認できます。
+- ブラウザーが非アクティブな間は入力を無視します。Local Launcherなどから戻ったときは、一度ボタン・スティックを離すと操作を再開します。
+- ブラウザーが標準配列として認識するコントローラーが対象です。利用には基本的にHTTPSまたはlocalhostでのアクセスが必要です。
 
 ### 新しいテーマ「Retro Panorama」を追加
 
@@ -29,9 +36,16 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2610.1816
+# iedeGAME Server 1.2610.1818
 
 ## What's new
+
+### Version 1.2610.1818: PC interface support for selected controllers
+
+- You can now navigate the browser interface on a PC (Windows, macOS, or desktop Linux) with selected controllers connected to that PC. Linux Mobile continues to use its existing controls.
+- Use the D-pad or left stick to move between items, and controller buttons to select, go back, or open menus. See **Settings** for the controls.
+- Controller input is ignored while the browser is inactive. After returning from Local Launcher or another app, release the buttons and sticks to resume navigation.
+- Requires a controller that the browser recognizes with a standard button layout. Access through HTTPS or localhost is generally required.
 
 ### New Retro Panorama theme
 
