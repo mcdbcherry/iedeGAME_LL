@@ -223,7 +223,7 @@ Linux Mobile supports RetroArch save sharing only.
 
 Download the appropriate file for your platform from GitHub Releases:
 
-- `iedeGAME-server-win-x64.zip` — iedeGAME Server for Windows 11 x64 (required to use Local Launcher)
+- `iedeGAME-server-win-x64-setup.exe` — iedeGAME Server for Windows 11 x64 (required to use Local Launcher)
 - `iedeGameLL.exe` — Windows x64
 - `iedeGameLL.apk` — Android
 - `iedeGameLL-Linux-x64.tar.gz` — Linux desktop, Ubuntu amd64
