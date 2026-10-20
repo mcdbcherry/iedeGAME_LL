@@ -1,10 +1,22 @@
-<!-- iedegame-update: version=1.2610.2013 -->
+<!-- iedegame-update: version=1.2610.2102 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2610.2013
+# iedeGAME サーバー 1.2610.2102
 
 ## 新しくなったところ
+
+### 新しい機種への対応
+
+- **Capcom CPS1・CPS2・CPS3、Neo Geo CD** に対応しました。Local Launcherから本体のRetroArchで起動できます。
+- ご利用の端末に対応した最新版のLocal Launcherへ更新してください。起動には対応するコアが必要です。
+
+### Miyoo Mini Plusへの対応拡張
+
+- Miyoo Mini Plusで、**アーケード（Arcade）・Capcom CPS1・CPS2・CPS3・Neo Geo** のゲームをLocal Launcherから起動できるようになりました。
+- **PlayStation・PCエンジンCD・メガCD・Neo Geo CD** にも対応しました。
+
+## これまでの更新内容
 
 ### Local LauncherがMiyoo Mini Plusに対応
 
@@ -12,9 +24,7 @@
 - シンプルなリストUIで、機種選択・検索・履歴・お気に入り・ランキングを利用できます。表示言語は日本語・英語に対応しています。
 - Miyoo Mini Plus版は専用UIを使用し、テーマ変更には対応していません。
 
-## これまでの更新内容
-
-### バージョン 1.2610.1921：サーバーの配布形態をインストーラー形式に変更
+### バージョン 1.2610.2102：サーバーの配布形態をインストーラー形式に変更
 
 - iedeGAME サーバーの配布形態をインストーラー形式に変更しました。ダウンロードしたインストーラーを実行し、画面の案内に従ってインストールできます。
 
@@ -46,9 +56,21 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2610.2013
+# iedeGAME Server 1.2610.2102
 
 ## What's new
+
+### Support for additional systems
+
+- Added support for **Capcom CPS1, CPS2, CPS3, and Neo Geo CD**. Launch games through Local Launcher using RetroArch on your device.
+- Update to the latest Local Launcher for your device. A compatible core is required to play.
+
+### Expanded support for Miyoo Mini Plus
+
+- On Miyoo Mini Plus, Local Launcher can now launch games for **Arcade, Capcom CPS1, CPS2, CPS3, and Neo Geo**.
+- Added support for **PlayStation, PC Engine CD, Sega CD, and Neo Geo CD**.
+
+## Previous updates
 
 ### Local Launcher now supports Miyoo Mini Plus
 
@@ -56,9 +78,7 @@
 - The simple list-based interface includes system selection, search, history, favorites, and rankings. Both English and Japanese are supported.
 - The Miyoo Mini Plus version uses a dedicated interface and does not support changing themes.
 
-## Previous updates
-
-### Version 1.2610.1921: Server distribution now uses an installer
+### Version 1.2610.2102: Server distribution now uses an installer
 
 - iedeGAME Server is now distributed as an installer. Run the downloaded installer and follow the on-screen instructions to install the server.
 
