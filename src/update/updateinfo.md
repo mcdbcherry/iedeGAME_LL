@@ -9,7 +9,7 @@
 ### 新しい機種への対応
 
 - **Capcom CPS1・CPS2・CPS3、Neo Geo CD** に対応しました。Local Launcherから本体のRetroArchで起動できます。
-- ご利用の端末に対応した最新版のLocal Launcherへ更新してください。起動には対応するコアが必要です。
+- ご利用の端末に対応した最新版のLocal Launcherへ更新してください。
 
 ### Miyoo Mini Plusへの対応拡張
 
@@ -63,7 +63,7 @@
 ### Support for additional systems
 
 - Added support for **Capcom CPS1, CPS2, CPS3, and Neo Geo CD**. Launch games through Local Launcher using RetroArch on your device.
-- Update to the latest Local Launcher for your device. A compatible core is required to play.
+- Update to the latest Local Launcher for your device.
 
 ### Expanded support for Miyoo Mini Plus
 
