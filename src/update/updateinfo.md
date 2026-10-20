@@ -1,16 +1,24 @@
-<!-- iedegame-update: version=1.2610.1907 -->
+<!-- iedegame-update: version=1.2610.2013 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2610.1907
+# iedeGAME サーバー 1.2610.2013
 
 ## 新しくなったところ
 
-### サーバーの配布形態をインストーラー形式に変更
+### Local LauncherがMiyoo Mini Plusに対応
+
+- **Miyoo Mini Plus（Onion 4.3.1-1）** 向けのLocal Launcherに対応しました。サーバーのライブラリからゲームを選び、必要なROMを取得して本体のRetroArchでプレイできます。
+- シンプルなリストUIで、機種選択・検索・履歴・お気に入り・ランキングを利用できます。表示言語は日本語・英語に対応しています。
+- Miyoo Mini Plus版は専用UIを使用し、テーマ変更には対応していません。
+
+## これまでの更新内容
+
+### バージョン 1.2610.1921：サーバーの配布形態をインストーラー形式に変更
 
 - iedeGAME サーバーの配布形態をインストーラー形式に変更しました。ダウンロードしたインストーラーを実行し、画面の案内に従ってインストールできます。
 
-### バージョン 1.2610.1907：PC版UIで一部コントローラーに対応
+### PC版UIで一部コントローラーに対応
 
 - PC版（Windows／macOS／デスクトップLinux）のブラウザー画面を、PCに接続した一部のコントローラーで操作できるようになりました。Linux Mobile版は従来の操作方法を使用します。
 - 十字キー／左スティックで項目を移動し、決定・戻る・メニュー操作ができます。対応する操作方法は **Settings** で確認できます。
@@ -25,8 +33,6 @@
 - ROM選択画面と機種別ランキングにも、その機種の背景画像を暗めに表示します。
 - 背景画像は縦横比を保って画面いっぱいに表示し、四辺が黒へフェードします。機種を切り替えると背景もフェードで切り替わります。
 
-## これまでの更新内容
-
 バージョン 1.2610.1815
 
 ### クライアントのテーマ変更に対応
@@ -40,15 +46,23 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2610.1907
+# iedeGAME Server 1.2610.2013
 
 ## What's new
 
-### Server distribution now uses an installer
+### Local Launcher now supports Miyoo Mini Plus
+
+- Local Launcher now supports **Miyoo Mini Plus running Onion 4.3.1-1**. Choose a game from your server library, download the required ROM, and play with the device's RetroArch.
+- The simple list-based interface includes system selection, search, history, favorites, and rankings. Both English and Japanese are supported.
+- The Miyoo Mini Plus version uses a dedicated interface and does not support changing themes.
+
+## Previous updates
+
+### Version 1.2610.1921: Server distribution now uses an installer
 
 - iedeGAME Server is now distributed as an installer. Run the downloaded installer and follow the on-screen instructions to install the server.
 
-### Version 1.2610.1907: PC interface support for selected controllers
+### PC interface support for selected controllers
 
 - You can now navigate the browser interface on a PC (Windows, macOS, or desktop Linux) with selected controllers connected to that PC. Linux Mobile continues to use its existing controls.
 - Use the D-pad or left stick to move between items, and controller buttons to select, go back, or open menus. See **Settings** for the controls.
@@ -62,8 +76,6 @@
 - Platform introductions appear on the right and follow your Japanese or English language setting.
 - ROM browsing and platform ranking screens use a dimmed version of the same platform artwork.
 - Background artwork fills the screen while keeping its aspect ratio, with all four edges fading to black. Switching platforms also fades between backgrounds.
-
-## Previous updates
 
 Version 1.2610.1815
 
