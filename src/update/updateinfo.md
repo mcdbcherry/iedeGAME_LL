@@ -1,8 +1,8 @@
-<!-- iedegame-update: version=1.2610.2116 -->
+<!-- iedegame-update: version=1.2610.2118 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2610.2116
+# iedeGAME サーバー 1.2610.2118
 
 ## 新しくなったところ
 
@@ -24,7 +24,7 @@
 - シンプルなリストUIで、機種選択・検索・履歴・お気に入り・ランキングを利用できます。表示言語は日本語・英語に対応しています。
 - Miyoo Mini Plus版は専用UIを使用し、テーマ変更には対応していません。
 
-### バージョン 1.2610.2116：サーバーの配布形態をインストーラー形式に変更
+### バージョン 1.2610.2118：サーバーの配布形態をインストーラー形式に変更
 
 - iedeGAME サーバーの配布形態をインストーラー形式に変更しました。ダウンロードしたインストーラーを実行し、画面の案内に従ってインストールできます。
 
@@ -56,7 +56,7 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2610.2116
+# iedeGAME Server 1.2610.2118
 
 ## What's new
 
@@ -78,7 +78,7 @@
 - The simple list-based interface includes system selection, search, history, favorites, and rankings. Both English and Japanese are supported.
 - The Miyoo Mini Plus version uses a dedicated interface and does not support changing themes.
 
-### Version 1.2610.2116: Server distribution now uses an installer
+### Version 1.2610.2118: Server distribution now uses an installer
 
 - iedeGAME Server is now distributed as an installer. Run the downloaded installer and follow the on-screen instructions to install the server.
 
