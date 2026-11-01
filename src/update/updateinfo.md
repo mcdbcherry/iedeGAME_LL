@@ -6,6 +6,22 @@
 
 ## 新しくなったところ
 
+### ゲーム画像の取得先にLibretroを追加
+
+- ゲーム画像を **Libretro thumbnails** から取得できるようになりました。アカウントは不要で、スクリーンショットを優先して取得します。
+- ScreenScraperで画像が見つからない場合や、ScreenScraperを使用しない場合にLibretro thumbnailsを使います。**プレビュー画像設定** の「ScreenScraperを使用する」をオフにしても、画像は取得できます。
+- **プレビュー画像設定** から、以前に取得したパッケージ画像などをスクリーンショットへ置き換えられます。自分で用意した画像・手動で設定した画像は変更しません。
+- 自動取得した画像を、自分で用意した画像より優先して表示する設定を追加しました。
+- Atomiswave・NAOMI・NAOMI 2のゲーム画像も取得できるようになりました。
+
+### アップデート通知の変更（iedeGAME サーバー・Windows版Local Launcher）
+
+- 新しいバージョンは自動で確認し、見つかった場合はメニューに **アップデートあり** と表示します。
+- **アップデートあり** を選ぶと、ブラウザーで最新版のダウンロードが始まります。ダウンロード後は、これまでどおり手動でインストール・差し替えをしてください。
+- 手動で更新を確認するメニュー項目と、専用のダウンロード画面はなくなりました。
+
+## これまでの更新内容
+
 ### 新しい機種への対応
 
 - **Capcom CPS1・CPS2・CPS3、Neo Geo CD** に対応しました。Local Launcherから本体のRetroArchで起動できます。
@@ -15,8 +31,6 @@
 
 - Miyoo Mini Plusで、**アーケード（Arcade）・Capcom CPS1・CPS2・CPS3・Neo Geo** のゲームをLocal Launcherから起動できるようになりました。
 - **PlayStation・PCエンジンCD・メガCD・Neo Geo CD** にも対応しました。
-
-## これまでの更新内容
 
 ### Local LauncherがMiyoo Mini Plusに対応
 
@@ -60,6 +74,22 @@
 
 ## What's new
 
+### Game images from Libretro
+
+- Game images can now be downloaded from **Libretro thumbnails**. No account is needed, and screenshots are preferred.
+- Libretro thumbnails are used when ScreenScraper has no image or is turned off. Images are still downloaded even if you turn off "Use ScreenScraper" in **Preview Image Settings**.
+- In **Preview Image Settings**, you can replace previously downloaded images, such as box art, with screenshots. Images you added yourself or set manually are never changed.
+- Added a setting to show downloaded images before your own images.
+- Game images are now also available for Atomiswave, NAOMI, and NAOMI 2.
+
+### Update notification changes (iedeGAME Server and Windows Local Launcher)
+
+- New versions are checked automatically. When one is found, **Update available** appears in the menu.
+- Select **Update available** to download the latest version in your browser. Install or replace the app manually after downloading, as before.
+- The menu item for checking for updates manually and the dedicated download window have been removed.
+
+## Previous updates
+
 ### Support for additional systems
 
 - Added support for **Capcom CPS1, CPS2, CPS3, and Neo Geo CD**. Launch games through Local Launcher using RetroArch on your device.
@@ -69,8 +99,6 @@
 
 - On Miyoo Mini Plus, Local Launcher can now launch games for **Arcade, Capcom CPS1, CPS2, CPS3, and Neo Geo**.
 - Added support for **PlayStation, PC Engine CD, Sega CD, and Neo Geo CD**.
-
-## Previous updates
 
 ### Local Launcher now supports Miyoo Mini Plus
 
