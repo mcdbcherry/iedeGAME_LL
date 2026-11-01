@@ -1,8 +1,8 @@
-<!-- iedegame-update: version=1.2611.0120 -->
+<!-- iedegame-update: version=1.2611.0122 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2611.0120
+# iedeGAME サーバー 1.2611.0122
 
 ## 新しくなったところ
 
@@ -56,7 +56,7 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2611.0120
+# iedeGAME Server 1.2611.0122
 
 ## What's new
 
