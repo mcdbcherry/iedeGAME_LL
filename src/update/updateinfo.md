@@ -1,10 +1,17 @@
-<!-- iedegame-update: version=1.2611.0204 -->
+<!-- iedegame-update: version=1.2611.1602 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2611.0204
+# iedeGAME サーバー 1.2611.1602
 
 ## 新しくなったところ
+
+### お気に入りの登録と履歴の表示方法を修正
+
+- 同じゲームを **アーケード** と **Capcom CPS1・CPS2・CPS3・Neo Geo** の両方に置いている場合、お気に入りの登録が反映されないように見えたり、同じゲームが2つ登録されたりする問題を修正しました。どちらの画面で登録しても、両方のゲームにお気に入りの印が付き、削除もどちらからでもできます。
+- 履歴に同じゲームを何度も表示しないようにしました。以前に起動したゲームをもう一度起動すると、前の記録を消して最上段に表示します。
+
+## これまでの更新内容
 
 ### ゲーム画像の取得先にLibretroを追加
 
@@ -19,8 +26,6 @@
 - 新しいバージョンは自動で確認し、見つかった場合はメニューに **アップデートあり** と表示します。
 - **アップデートあり** を選ぶと、ブラウザーで最新版のダウンロードが始まります。ダウンロード後は、これまでどおり手動でインストール・差し替えをしてください。
 - 手動で更新を確認するメニュー項目と、専用のダウンロード画面はなくなりました。
-
-## これまでの更新内容
 
 ### 新しい機種への対応
 
@@ -70,9 +75,16 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2611.0204
+# iedeGAME Server 1.2611.1602
 
 ## What's new
+
+### Fixes for favorites and history
+
+- Fixed an issue where adding a favorite seemed to have no effect, or the same game was added twice, when the game is placed in both **Arcade** and **Capcom CPS1, CPS2, CPS3, or Neo Geo**. A favorite added from either screen now appears on both, and you can remove it from either one.
+- History no longer lists the same game more than once. When you start a game you have played before, its earlier entry is removed and the game moves to the top.
+
+## Previous updates
 
 ### Game images from Libretro
 
@@ -87,8 +99,6 @@
 - New versions are checked automatically. When one is found, **Update available** appears in the menu.
 - Select **Update available** to download the latest version in your browser. Install or replace the app manually after downloading, as before.
 - The menu item for checking for updates manually and the dedicated download window have been removed.
-
-## Previous updates
 
 ### Support for additional systems
 
