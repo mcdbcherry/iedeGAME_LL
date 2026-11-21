@@ -1,17 +1,20 @@
-<!-- iedegame-update: version=1.2611.1602 -->
+<!-- iedegame-update: version=1.2611.2119 -->
 
 <!-- iedegame-update: lang=ja -->
 
-# iedeGAME サーバー 1.2611.1602
+# iedeGAME サーバー 1.2611.2119
 
 ## 新しくなったところ
+
+- 一部テーマの修正
+- 複数の軽微な問題の修正
+
+## これまでの更新内容
 
 ### お気に入りの登録と履歴の表示方法を修正
 
 - 同じゲームを **アーケード** と **Capcom CPS1・CPS2・CPS3・Neo Geo** の両方に置いている場合、お気に入りの登録が反映されないように見えたり、同じゲームが2つ登録されたりする問題を修正しました。どちらの画面で登録しても、両方のゲームにお気に入りの印が付き、削除もどちらからでもできます。
 - 履歴に同じゲームを何度も表示しないようにしました。以前に起動したゲームをもう一度起動すると、前の記録を消して最上段に表示します。
-
-## これまでの更新内容
 
 ### ゲーム画像の取得先にLibretroを追加
 
@@ -75,16 +78,19 @@
 
 <!-- iedegame-update: lang=en -->
 
-# iedeGAME Server 1.2611.1602
+# iedeGAME Server 1.2611.2119
 
 ## What's new
+
+- Fixes for some themes
+- Several minor fixes
+
+## Previous updates
 
 ### Fixes for favorites and history
 
 - Fixed an issue where adding a favorite seemed to have no effect, or the same game was added twice, when the game is placed in both **Arcade** and **Capcom CPS1, CPS2, CPS3, or Neo Geo**. A favorite added from either screen now appears on both, and you can remove it from either one.
 - History no longer lists the same game more than once. When you start a game you have played before, its earlier entry is removed and the game moves to the top.
-
-## Previous updates
 
 ### Game images from Libretro
 
